@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    180deg,
+    #141414 0%,
+    #26261b 100%
+  ); /* Repeat the image */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.moonbtn1 {
+  font-family: Spinnaker;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.21px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #d5b000;
+  background: #fad2101a;
+  width: 190px;
+  height: 52px;
+  top: 100px;
+  left: 16px;
+  padding: 12px 40px 12px 40px;
+  gap: 0px;
+  border-radius: 16px;
+  opacity: 0px;
+  border: 1px solid #fad21033;
+}
+.moonbtn2 {
+  width: 190px;
+  height: 52px;
+  top: 100px;
+  left: 224px;
+  padding: 11px 0px 13px 0px;
+  gap: 0px;
+  border-radius: 16px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+  background: #ccb8b81a;
+  border: 2px solid #ccb8b833;
+  font-family: Spinnaker;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.21px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #ffffff;
+}
+.moonbtn3 {
+  width: 280px;
+  height: 40px;
+  top: 184px;
+  left: 16px;
+  padding: 4px 33px 3px 15px;
+  gap: 0px;
+  border-radius: 16px;
+  opacity: 0px;
+  font-family: Spinnaker;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32.91px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #d5b000;
+  background: #ccb8b81a;
+  border: 2px solid #ccb8b833;
+}
+.moonbox {
+  width: 120px;
+  height: 122px;
+  top: 275px;
+  left: 16px;
+  gap: 0px;
+  border-radius: 16px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+  background: var(--Grey, #2e2c29);
+  border: 2px solid #ccb8b880;
+  font-family: Spinnaker;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.8px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #ffffff;
+}
+.moonbtn4 {
+  width: 180px;
+  height: 45px;
+  top: 428px;
+  left: 125px;
+  padding: 13px 34px 13px 34px;
+  gap: 0px;
+  border-radius: 100px;
+  opacity: 0px;
+  background: #fad210;
+  border: 2px solid #ccb8b833;
+  font-family: Spinnaker;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.8px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: var(--Black, #141414);
+}
+
+.sec1 {
+  display: flex;
+  flex-direction: row;
+}
+
+/*
+FOOTER SECTIONS
+*/
+
+.footerbox {
+  width: 430px;
+  height: 100px;
+  top: 816px;
+  padding: 10px 17px 10px 16px;
+  gap: 0px;
+  opacity: 0px;
+  color: #fad210;
+}
